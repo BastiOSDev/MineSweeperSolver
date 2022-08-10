@@ -16,6 +16,11 @@
 		C6BA5F7028A3749D00A5484B /* MineSweeperSolverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA5F6F28A3749D00A5484B /* MineSweeperSolverUITestsLaunchTests.swift */; };
 		C6BA5F7D28A375E800A5484B /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA5F7C28A375E800A5484B /* FileReader.swift */; };
 		C6BA5F7F28A3761D00A5484B /* FileRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA5F7E28A3761D00A5484B /* FileRenderer.swift */; };
+		C6BA5F8128A376BA00A5484B /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA5F8028A376BA00A5484B /* Board.swift */; };
+		C6BA5F8328A376C200A5484B /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA5F8228A376C200A5484B /* Element.swift */; };
+		C6BA5F8528A376CB00A5484B /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA5F8428A376CB00A5484B /* Position.swift */; };
+		C6BA5F8828A3771D00A5484B /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA5F8728A3771D00A5484B /* Counter.swift */; };
+		C6BA5F8A28A3774900A5484B /* FileWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA5F8928A3774900A5484B /* FileWriter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,11 @@
 		C6BA5F6F28A3749D00A5484B /* MineSweeperSolverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineSweeperSolverUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C6BA5F7C28A375E800A5484B /* FileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
 		C6BA5F7E28A3761D00A5484B /* FileRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileRenderer.swift; sourceTree = "<group>"; };
+		C6BA5F8028A376BA00A5484B /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		C6BA5F8228A376C200A5484B /* Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		C6BA5F8428A376CB00A5484B /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		C6BA5F8728A3771D00A5484B /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		C6BA5F8928A3774900A5484B /* FileWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWriter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +108,11 @@
 		C6BA5F5128A3749900A5484B /* MineSweeperSolver */ = {
 			isa = PBXGroup;
 			children = (
-				C6BA5F7C28A375E800A5484B /* FileReader.swift */,
+				C6BA5F8628A376D400A5484B /* Parts */,
 				C6BA5F7E28A3761D00A5484B /* FileRenderer.swift */,
+				C6BA5F7C28A375E800A5484B /* FileReader.swift */,
+				C6BA5F8728A3771D00A5484B /* Counter.swift */,
+				C6BA5F8928A3774900A5484B /* FileWriter.swift */,
 				C6BA5F5228A3749900A5484B /* MineSweeperSolverApp.swift */,
 				C6BA5F5428A3749900A5484B /* ContentView.swift */,
 				C6BA5F5628A3749D00A5484B /* Assets.xcassets */,
@@ -131,6 +144,16 @@
 				C6BA5F6F28A3749D00A5484B /* MineSweeperSolverUITestsLaunchTests.swift */,
 			);
 			path = MineSweeperSolverUITests;
+			sourceTree = "<group>";
+		};
+		C6BA5F8628A376D400A5484B /* Parts */ = {
+			isa = PBXGroup;
+			children = (
+				C6BA5F8028A376BA00A5484B /* Board.swift */,
+				C6BA5F8228A376C200A5484B /* Element.swift */,
+				C6BA5F8428A376CB00A5484B /* Position.swift */,
+			);
+			path = Parts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6BA5F8828A3771D00A5484B /* Counter.swift in Sources */,
+				C6BA5F8528A376CB00A5484B /* Position.swift in Sources */,
 				C6BA5F7F28A3761D00A5484B /* FileRenderer.swift in Sources */,
 				C6BA5F7D28A375E800A5484B /* FileReader.swift in Sources */,
+				C6BA5F8328A376C200A5484B /* Element.swift in Sources */,
+				C6BA5F8128A376BA00A5484B /* Board.swift in Sources */,
+				C6BA5F8A28A3774900A5484B /* FileWriter.swift in Sources */,
 				C6BA5F5528A3749900A5484B /* ContentView.swift in Sources */,
 				C6BA5F5328A3749900A5484B /* MineSweeperSolverApp.swift in Sources */,
 			);
