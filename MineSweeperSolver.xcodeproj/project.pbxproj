@@ -21,6 +21,8 @@
 		C6BA5F8528A376CB00A5484B /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA5F8428A376CB00A5484B /* Position.swift */; };
 		C6BA5F8828A3771D00A5484B /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA5F8728A3771D00A5484B /* Counter.swift */; };
 		C6BA5F8A28A3774900A5484B /* FileWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA5F8928A3774900A5484B /* FileWriter.swift */; };
+		C6BA5F8D28A378D700A5484B /* feld1.txt in Resources */ = {isa = PBXBuildFile; fileRef = C6BA5F8B28A378D700A5484B /* feld1.txt */; };
+		C6BA5F8E28A378D700A5484B /* feld2.txt in Resources */ = {isa = PBXBuildFile; fileRef = C6BA5F8C28A378D700A5484B /* feld2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		C6BA5F8428A376CB00A5484B /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
 		C6BA5F8728A3771D00A5484B /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 		C6BA5F8928A3774900A5484B /* FileWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWriter.swift; sourceTree = "<group>"; };
+		C6BA5F8B28A378D700A5484B /* feld1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = feld1.txt; sourceTree = "<group>"; };
+		C6BA5F8C28A378D700A5484B /* feld2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = feld2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				C6BA5F8928A3774900A5484B /* FileWriter.swift */,
 				C6BA5F5228A3749900A5484B /* MineSweeperSolverApp.swift */,
 				C6BA5F5428A3749900A5484B /* ContentView.swift */,
+				C6BA5F8B28A378D700A5484B /* feld1.txt */,
+				C6BA5F8C28A378D700A5484B /* feld2.txt */,
 				C6BA5F5628A3749D00A5484B /* Assets.xcassets */,
 				C6BA5F5828A3749D00A5484B /* Preview Content */,
 			);
@@ -260,6 +266,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6BA5F8E28A378D700A5484B /* feld2.txt in Resources */,
+				C6BA5F8D28A378D700A5484B /* feld1.txt in Resources */,
 				C6BA5F5A28A3749D00A5484B /* Preview Assets.xcassets in Resources */,
 				C6BA5F5728A3749D00A5484B /* Assets.xcassets in Resources */,
 			);
