@@ -14,6 +14,8 @@
 		C6BA5F6428A3749D00A5484B /* MineSweeperSolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA5F6328A3749D00A5484B /* MineSweeperSolverTests.swift */; };
 		C6BA5F6E28A3749D00A5484B /* MineSweeperSolverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA5F6D28A3749D00A5484B /* MineSweeperSolverUITests.swift */; };
 		C6BA5F7028A3749D00A5484B /* MineSweeperSolverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA5F6F28A3749D00A5484B /* MineSweeperSolverUITestsLaunchTests.swift */; };
+		C6BA5F7D28A375E800A5484B /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA5F7C28A375E800A5484B /* FileReader.swift */; };
+		C6BA5F7F28A3761D00A5484B /* FileRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA5F7E28A3761D00A5484B /* FileRenderer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		C6BA5F6928A3749D00A5484B /* MineSweeperSolverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSweeperSolverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BA5F6D28A3749D00A5484B /* MineSweeperSolverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineSweeperSolverUITests.swift; sourceTree = "<group>"; };
 		C6BA5F6F28A3749D00A5484B /* MineSweeperSolverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineSweeperSolverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C6BA5F7C28A375E800A5484B /* FileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
+		C6BA5F7E28A3761D00A5484B /* FileRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileRenderer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		C6BA5F5128A3749900A5484B /* MineSweeperSolver */ = {
 			isa = PBXGroup;
 			children = (
+				C6BA5F7C28A375E800A5484B /* FileReader.swift */,
+				C6BA5F7E28A3761D00A5484B /* FileRenderer.swift */,
 				C6BA5F5228A3749900A5484B /* MineSweeperSolverApp.swift */,
 				C6BA5F5428A3749900A5484B /* ContentView.swift */,
 				C6BA5F5628A3749D00A5484B /* Assets.xcassets */,
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6BA5F7F28A3761D00A5484B /* FileRenderer.swift in Sources */,
+				C6BA5F7D28A375E800A5484B /* FileReader.swift in Sources */,
 				C6BA5F5528A3749900A5484B /* ContentView.swift in Sources */,
 				C6BA5F5328A3749900A5484B /* MineSweeperSolverApp.swift in Sources */,
 			);
