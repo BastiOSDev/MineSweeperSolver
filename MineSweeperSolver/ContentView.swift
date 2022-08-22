@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var fileTitle: String = ""
-    @State private var isCorrectFilename: Bool = false
     private var isValidFileName: Bool {
         return FileReader().isPossibleFile(fileTitle)
     }
