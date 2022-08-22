@@ -6,10 +6,20 @@
 //
 
 struct FileWriter {
+    let fileTitle: String
+    var board: Board {
+        return Counter().getSolvedBoard(sourceTitle: fileTitle)
+    }
+    
     func printResults(sourceTitle: String) {
-        let solvedBoard = Counter().getSolvedBoard(sourceTitle: sourceTitle)
+        let solvedBoard = Counter().getSolvedBoard(sourceTitle: fileTitle)
         
+        printTitle(sourceTitle)
         printBoard(solvedBoard)
+    }
+    
+    private func printTitle(_ title: String) {
+        print("\n------ \(title) ------")
     }
     
     private func printBoard(_ board: Board) {

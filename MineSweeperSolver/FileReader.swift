@@ -19,6 +19,14 @@ struct FileReader {
         }
     }
     
+    func isPossibleFile(_ title: String) -> Bool {
+        if Bundle.main.url(forResource: title, withExtension: "txt") != nil {
+            return true
+        } else {
+            return false
+        }
+    }
+    
     private func checkFile(url: URL) throws {
         if url.pathExtension != "txt" {
             print("error")

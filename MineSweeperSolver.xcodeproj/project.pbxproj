@@ -23,6 +23,8 @@
 		C6BA5F8A28A3774900A5484B /* FileWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BA5F8928A3774900A5484B /* FileWriter.swift */; };
 		C6BA5F8D28A378D700A5484B /* feld1.txt in Resources */ = {isa = PBXBuildFile; fileRef = C6BA5F8B28A378D700A5484B /* feld1.txt */; };
 		C6BA5F8E28A378D700A5484B /* feld2.txt in Resources */ = {isa = PBXBuildFile; fileRef = C6BA5F8C28A378D700A5484B /* feld2.txt */; };
+		C6E4624628B3FA8900F86C97 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E4624528B3FA8900F86C97 /* ResultView.swift */; };
+		C6E4624828B4041500F86C97 /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E4624728B4041500F86C97 /* ResultViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		C6BA5F8928A3774900A5484B /* FileWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWriter.swift; sourceTree = "<group>"; };
 		C6BA5F8B28A378D700A5484B /* feld1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = feld1.txt; sourceTree = "<group>"; };
 		C6BA5F8C28A378D700A5484B /* feld2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = feld2.txt; sourceTree = "<group>"; };
+		C6E4624528B3FA8900F86C97 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		C6E4624728B4041500F86C97 /* ResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 				C6BA5F8928A3774900A5484B /* FileWriter.swift */,
 				C6BA5F5228A3749900A5484B /* MineSweeperSolverApp.swift */,
 				C6BA5F5428A3749900A5484B /* ContentView.swift */,
+				C6E4624528B3FA8900F86C97 /* ResultView.swift */,
+				C6E4624728B4041500F86C97 /* ResultViewModel.swift */,
 				C6BA5F8B28A378D700A5484B /* feld1.txt */,
 				C6BA5F8C28A378D700A5484B /* feld2.txt */,
 				C6BA5F5628A3749D00A5484B /* Assets.xcassets */,
@@ -297,10 +303,12 @@
 				C6BA5F8828A3771D00A5484B /* Counter.swift in Sources */,
 				C6BA5F8528A376CB00A5484B /* Position.swift in Sources */,
 				C6BA5F7F28A3761D00A5484B /* FileRenderer.swift in Sources */,
+				C6E4624828B4041500F86C97 /* ResultViewModel.swift in Sources */,
 				C6BA5F7D28A375E800A5484B /* FileReader.swift in Sources */,
 				C6BA5F8328A376C200A5484B /* Element.swift in Sources */,
 				C6BA5F8128A376BA00A5484B /* Board.swift in Sources */,
 				C6BA5F8A28A3774900A5484B /* FileWriter.swift in Sources */,
+				C6E4624628B3FA8900F86C97 /* ResultView.swift in Sources */,
 				C6BA5F5528A3749900A5484B /* ContentView.swift in Sources */,
 				C6BA5F5328A3749900A5484B /* MineSweeperSolverApp.swift in Sources */,
 			);
